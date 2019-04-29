@@ -1,0 +1,23 @@
+{
+  "name": "keyboard",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export -o dist",
+    "now-build": "next build && next export -o dist",
+    "start": "next start",
+    "export": "next export -o dist",
+    "test": "standard",
+    "lint": "standard"
+  },
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11",
+    "standard": "^12.0.1"
+  }
+}
